@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css"/>
+    <script src="index.js" defer></script> 
+    <title>Plants</title>
+</head>
+<body>
+    <form id="create-plant">
+        <label>Create a Plant</label>
+        <input name="name" placeholder="name">
+        <input name="plant_type" placeholder="plant type">
+        <input name="location" placeholder="location">
+        <input type="submit" id="create-button">
+    </form>
+    <form id="update-plant">
+        <label>Update a Plant</label>
+        <input name="name" id="update-name" placeholder="name">
+        <input name="plant_type" id="update-type" placeholder="plant type">
+        <input name="location" id="update-location" placeholder="location">
+        <input type="hidden" name="id" id="update-id">
+        <input type="submit" id="update-button">
+    </form>
+    
+</body>
+</html>
